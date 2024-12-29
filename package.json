@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "extractSignatures": "./dist/extractSignatures.js"
+  },
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "executable"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

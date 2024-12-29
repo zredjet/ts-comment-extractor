@@ -2,6 +2,9 @@
 node_modules/
 dist/
 
+# PKG
+executable/
+
 # Logs
 logs/
 *.log
