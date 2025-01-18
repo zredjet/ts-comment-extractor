@@ -9,7 +9,8 @@
         "outDir": "./dist"
     },
     "include": [
-        "**/*.ts"
+        "extractSignaturesv2.ts",
+        "extractSignaturesv2.test.ts"
     ],
     "exclude": [
         "node_modules"
